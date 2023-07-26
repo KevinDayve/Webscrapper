@@ -61,3 +61,105 @@ INFO:root:log my final result [{'Product': 'iPhone', 'Name': 'Flipkart Customer'
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:14:48] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:14:48] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:14:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 626-691-863
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:05] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'SamsungGalaxyBook', 'Name': 'Vasudev Yadav', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I purchased this laptop at 66000 and got it at 59000 with all offers. At this price laptop is very powerful in terms of metal build, finger print, CPU and GPU.Display quality is also top noch. The single con is that speakers are not loud. Overall Highly recommend.'}, {'Product': 'SamsungGalaxyBook', 'Name': 'Bhavya  Singh', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I have no words to explain this machine...Overall go for it... average above gaming... excellent content creator editing and all... this @ARC \u2705\U0001f4ab\U0001f525\U0001f4a5'}, {'Product': 'SamsungGalaxyBook', 'Name': 'Aakash  Rana', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Osm'}, {'Product': 'SamsungGalaxyBook', 'Name': 'saharsha manikanta vinayak ayenavolu', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good build . Good performance I played volarant for 1 hour no lag or frame drops but as this has metal body it feels hot. Display is great . Keyboard is so good . I am writing this review after 1 Month usage. You can watch 4k video without any lag.Battery is good 3 to 4 of medium use. Track pad is big gestures work well. Additional: If you have a samsung devices you can enjoy by using them together. Like a ecosystem.'}, {'Product': 'SamsungGalaxyBook', 'Name': 'saharsha manikanta vinayak ayenavolu', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good build . Good performance I played volarant for 1 hour no lag or frame drops but as this has metal body it feels hot. Display is great . Keyboard is so good . I am writing this review after 1 Month usage. You can watch 4k video without any lag.Battery is good 3 to 4 of medium use. Track pad is big gestures work well. Additional: If you have a samsung devices you can enjoy by using them together. Like a ecosystem.'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:17] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'SamsungBook', 'Name': 'Vasudev Yadav', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I purchased this laptop at 66000 and got it at 59000 with all offers. At this price laptop is very powerful in terms of metal build, finger print, CPU and GPU.Display quality is also top noch. The single con is that speakers are not loud. Overall Highly recommend.'}, {'Product': 'SamsungBook', 'Name': 'Bhavya  Singh', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'I have no words to explain this machine...Overall go for it... average above gaming... excellent content creator editing and all... this @ARC \u2705\U0001f4ab\U0001f525\U0001f4a5'}, {'Product': 'SamsungBook', 'Name': 'Aakash  Rana', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Osm'}, {'Product': 'SamsungBook', 'Name': 'saharsha manikanta vinayak ayenavolu', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Good build . Good performance I played volarant for 1 hour no lag or frame drops but as this has metal body it feels hot. Display is great . Keyboard is so good . I am writing this review after 1 Month usage. You can watch 4k video without any lag.Battery is good 3 to 4 of medium use. Track pad is big gestures work well. Additional: If you have a samsung devices you can enjoy by using them together. Like a ecosystem.'}, {'Product': 'SamsungBook', 'Name': 'saharsha manikanta vinayak ayenavolu', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good build . Good performance I played volarant for 1 hour no lag or frame drops but as this has metal body it feels hot. Display is great . Keyboard is so good . I am writing this review after 1 Month usage. You can watch 4k video without any lag.Battery is good 3 to 4 of medium use. Track pad is big gestures work well. Additional: If you have a samsung devices you can enjoy by using them together. Like a ecosystem.'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:34] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Best of best'}, {'Product': 'iPhone', 'Name': 'Ajay Kr', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Awesome camera..I m love  it'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Happy to have this phone'}, {'Product': 'iPhone', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... \U0001f60d'}, {'Product': 'iPhone', 'Name': 'Tulasiram SABBAVARAPU', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Best phone in recent times I have used in my life'}, {'Product': 'iPhone', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'My dream phone Iam waiting after 10 years bought these phone. Fully happy phone performance display camera etc awesmome,selfie camera focus to alpple company. Main camera performance awesome,display, Sound quality Dolby atoms,charging also very improved.overall super \U0001f970'}, {'Product': 'iPhone', 'Name': 'Shivang Palyal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'This is awosome .. camera is best . Here some photos i m sharing with you guys ..'}, {'Product': 'iPhone', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:56:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 626-691-863
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:57:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:57:44] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:57:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Best of best'}, {'Product': 'iPhone', 'Name': 'Ajay Kr', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Awesome camera..I m love  it'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Happy to have this phone'}, {'Product': 'iPhone', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... \U0001f60d'}, {'Product': 'iPhone', 'Name': 'Tulasiram SABBAVARAPU', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Best phone in recent times I have used in my life'}, {'Product': 'iPhone', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'My dream phone Iam waiting after 10 years bought these phone. Fully happy phone performance display camera etc awesmome,selfie camera focus to alpple company. Main camera performance awesome,display, Sound quality Dolby atoms,charging also very improved.overall super \U0001f970'}, {'Product': 'iPhone', 'Name': 'Shivang Palyal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'This is awosome .. camera is best . Here some photos i m sharing with you guys ..'}, {'Product': 'iPhone', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 11:57:51] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:19] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone', 'Name': 'Ashish  Kumar', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Just amazing'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'My dream phone Iam waiting after 10 years bought these phone. Fully happy phone performance display camera etc awesmome,selfie camera focus to alpple company. Main camera performance awesome,display, Sound quality Dolby atoms,charging also very improved.overall super \U0001f970'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Happy to have this phone'}, {'Product': 'iPhone', 'Name': 'Badri Bishal  Pratihari ', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Love this phone..... \U0001f60d'}, {'Product': 'iPhone', 'Name': 'Ajay Kr', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Awesome camera..I m love  it'}, {'Product': 'iPhone', 'Name': 'Shivang Palyal', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'This is awosome .. camera is best . Here some photos i m sharing with you guys ..'}, {'Product': 'iPhone', 'Name': 'Tulasiram SABBAVARAPU', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Best phone in recent times I have used in my life'}, {'Product': 'iPhone', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Best of best'}, {'Product': 'iPhone', 'Name': 'Prasenjit Bar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Best phone for day to day use and photography/videography.'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}, {'Product': 'iPhone', 'Name': 'Sachin Saini', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'My first I phone ..from a long time android user… apple camera is way ahead  ,.. interface is better than android….overall premium features and feeling. .;but prices way aboveboard'}]
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:04:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:06:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:06:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:06:55] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Football', 'Name': 'SHAILENDRA  Tiwari', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Very nice football and pump as I ordered same delivered.thank you cosco and thank you Flipkart.'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Bad product in week got tear'}, {'Product': 'Football', 'Name': 'Shazia Habib', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Very good product must buy \U0001f44d'}, {'Product': 'Football', 'Name': 'swadesh kumar', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Good products'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Very very very very very very very excellent'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'This is very good ball must try it quality is good and i also received pump also and pin also thanks Flipkart'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'The product is very good in quality, i like this product very much and the delivery boy is very dedicate person'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good prodect'}, {'Product': 'Football', 'Name': 'Chandrama Bisai', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'It is really nice \U0001f60c'}, {'Product': 'Football', 'Name': 'Saket mahar', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Very much satisfying quality'}, {'Product': 'Football', 'Name': 'Saket mahar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Very much satisfying quality'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:07:01] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:10:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:10:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '2', 'CommentHead': 'Slightly disappointed', 'Comment': "Don't buy this guys,, the quality was worst"}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Nice', 'Comment': "It's fine but not the best \u263a\ufe0f"}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': "It's just amazing \U0001f975\u2615"}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': "Looking good But size are small Don't wast money if u are 17+ age player"}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Nice product.must buy it'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Ok'}, {'Product': 'Football', 'Name': 'Arnab  Maity ', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice Product.'}, {'Product': 'Football', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Better'}, {'Product': 'Football', 'Name': 'Salima Yasmin', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Gd'}, {'Product': 'Football', 'Name': 'Saroj Verma', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'Nice'}, {'Product': 'Football', 'Name': 'Saroj Verma', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice'}]
+INFO:root:The "dnspython" module must be installed to use mongodb+srv:// URIs
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2023 12:10:44] "POST /review HTTP/1.1" 200 -
